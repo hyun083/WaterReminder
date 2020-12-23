@@ -12,8 +12,8 @@
 		D2BEBB1525935A5B008A6CE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BEBB1425935A5B008A6CE0 /* ViewController.swift */; };
 		D2BEBB1825935A5B008A6CE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BEBB1625935A5B008A6CE0 /* Main.storyboard */; };
 		D2BEBB1B25935A5B008A6CE0 /* WaterReminder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2BEBB1925935A5B008A6CE0 /* WaterReminder.xcdatamodeld */; };
-		D2BEBB1D25935A5C008A6CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BEBB1C25935A5C008A6CE0 /* Assets.xcassets */; };
 		D2BEBB2025935A5C008A6CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2BEBB1E25935A5C008A6CE0 /* LaunchScreen.storyboard */; };
+		D2BEBB2A25935CCE008A6CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2BEBB1C25935A5C008A6CE0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,7 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2BEBB2025935A5C008A6CE0 /* LaunchScreen.storyboard in Resources */,
-				D2BEBB1D25935A5C008A6CE0 /* Assets.xcassets in Resources */,
+				D2BEBB2A25935CCE008A6CE0 /* Assets.xcassets in Resources */,
 				D2BEBB1825935A5B008A6CE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,14 +293,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2GY4XTB4R5;
 				INFOPLIST_FILE = WaterReminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.WaterReminder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WaterReminderByHyun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,14 +313,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2GY4XTB4R5;
 				INFOPLIST_FILE = WaterReminder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.WaterReminder;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WaterReminderByHyun;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
